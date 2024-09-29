@@ -1,0 +1,135 @@
+body{
+    background-color: #191919;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Rokkitt", serif;
+    font-optical-sizing: auto;
+    font-weight: 603;
+    font-style: normal;
+}
+.relogios{
+    width: 900px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.comprediv{
+    margin-top: 40px;
+    color: #bebdbe;
+    border-bottom: 8px solid #00d1d2;
+    width: 450px;
+    margin-left: -50%;
+}
+#textcompre{
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.fotorelogios{
+    width: 700px;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.smart1{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: -20px;
+}
+.smart2{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 20px;   
+}
+.smart3{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: -20px;    
+}
+#textrelogio{
+    font-size: 20px;
+}
+img{
+    cursor: pointer;
+}
+img:hover{
+    transition: 0.7s;
+    filter: drop-shadow(2px 2px 20px #00d1d2);
+    scale: 1.1;
+}
+@media screen and (max-width: 480px){
+    body{
+        display: flex;
+        align-items: center;
+    }
+    .relogios{
+        flex-direction: column;
+        background: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 600px;
+        margin-top: 5px;
+    }
+    .fotorelogios{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .smart1{
+        width: 200px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+    .smart2{
+        width: 200px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+        margin-left: 0px;   
+    }
+    .smart3{
+        width: 200px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+        margin-left: 0px;
+        margin-right: 0px;    
+    }
+    .comprediv{
+        margin-left: -10%;
+    }
+    #textcompre{
+        margin-left: 15%;
+    }
+    .fotorelogios{
+        margin-top: 100px;
+    }
+}
